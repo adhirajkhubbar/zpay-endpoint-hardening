@@ -109,5 +109,8 @@ Implements four reliability decisions:
 3. ✅ Rate Limiting (50 req/min, 429 + Retry-After)
 4. ✅ Versioning (support amount_inr in v1, mark for v2 removal)
 
-Follows Fireline reference pattern.
+## Endpoint Hardening
+
+Implemented POST /v1/payments with error handling, idempotency,
+rate limiting, and backward-compatible API versioning.
 ```
