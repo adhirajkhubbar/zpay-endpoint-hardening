@@ -1,0 +1,14 @@
+{
+  "name": "zpay-endpoint-hardening",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hardened POST /v1/payments endpoint for the Kalvium reliability assignment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
